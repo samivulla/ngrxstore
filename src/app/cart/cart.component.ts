@@ -5,9 +5,7 @@ import * as Cart from "./../store/actions";
 
 @Component({
   selector: 'app-cart',
-  template: 
-  `
-    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12" *ngFor="let product of cart | async">
+  template: `<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12" *ngFor="let product of cart | async">
       <div class="my-list">
           <img src="http://hpservicecenterschennai.in/images/hp_laptop_service_centers_in_guindy.png" alt="" />
           <h3>{{product.name}}</h3>

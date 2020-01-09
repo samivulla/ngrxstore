@@ -7,9 +7,7 @@ import * as Cart from "./../store/actions";
 
 @Component({
   selector: 'app-product',
-  template: 
-  `
-    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+  template: `<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
       <div class="my-list">
           <img src="http://hpservicecenterschennai.in/images/hp_laptop_service_centers_in_guindy.png" alt="" />
           <h3>{{product.name}}</h3>
